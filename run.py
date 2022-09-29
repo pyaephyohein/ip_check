@@ -1,4 +1,3 @@
-from email import message
 from flask import Flask, render_template, request, jsonify
 import check_ping
 app = Flask(__name__)
